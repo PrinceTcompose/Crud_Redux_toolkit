@@ -1,0 +1,104 @@
+.todo-title {
+    font-weight: 700 !important;
+    font-size: 45px;
+    color: #646681;
+}
+
+#filter {
+    border: none;
+    background-color: #CCCDDE;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #585858;
+}
+
+.btn-add {
+    background-color: #646FF0;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+input#check {
+    width: 25px;
+    height: 25px;
+}
+
+.task-border {
+    border-radius: 15px;
+}
+
+.task-outer {
+    background-color: #ECEDF6;
+    border-radius: 15px !important;
+}
+
+.edit-icon {
+    color: #585858;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #DEDFE1;
+}
+
+.modal-bg {
+    background-color: #ECEDF6;
+}
+
+.modal-title {
+    font-weight: 700;
+    color: #646681;
+}
+
+.modal-data {
+    font-size: 20px;
+    color: #646681;
+}
+
+.btn-close.position-absolute {
+    top: -40px;
+    right: 8px;
+    background-color: white;
+    padding: 12px;
+}
+
+.btn-close.position-absolute:hover {
+    color: white;
+    background-color: tomato;
+}
+
+button:focus:not(:focus-visible).btn-close.position-absolute {
+    background-color: tomato;
+    outline: none;
+}
+
+.modal-dialog {
+    border-radius: 50px !important;
+}
+
+.btn-cancel {
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #CCCDDE;
+    color: #646681;
+}
+
+.modal-select {
+    padding: .575rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.list-complete {
+    text-decoration: line-through !important;
+    opacity: 0.7;
+}
+
+.hLpxJr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-top: 40vh;
+    /* margin-bottom: 40vh; */
+}
